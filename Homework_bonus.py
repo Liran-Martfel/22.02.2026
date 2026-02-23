@@ -33,7 +33,7 @@ def basic_math (num_1, math_operation, num_2, oper):
     question = (f'{num_1} {math_operation} {num_2} = ?')
     print (question)
     answer = float (input('enter your answer: '))
-    _oper = int (oper*10) / 10
+    _oper = float (oper*10) / 10
     if round (answer,1) == round (oper,1):
         print ('Correct!')
     else:
