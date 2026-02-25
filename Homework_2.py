@@ -1,7 +1,5 @@
-basic = []
-
-
 def basic_math (a = 10, b = 2):
+    basic = []
     if b == 0:
         print (b, "is invalid")
         return 0
